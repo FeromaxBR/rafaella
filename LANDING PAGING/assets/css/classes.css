@@ -1,0 +1,40 @@
+.main-bg {
+    background-image: url(../img/slanted-gradient.svg);
+    background-size: cover;
+    background-position: center center;
+    color: var(--white);
+  }
+  .white-bg {
+    background: var(--white);
+    color: var(--primary-color);
+  }
+
+  
+
+  .white-bg p {
+    color: black;
+  }
+  
+  .main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: var(--gap);
+  padding: 10rem var(--gap);
+  }
+  
+  .section {
+  min-height: 100vh;
+  }
+  
+  .menu-spacing {
+    height: 6.5rem;
+  }
+
+  .main-content h1 {
+    color: var(--primary-color)
+  }
+
+  div .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+  }
